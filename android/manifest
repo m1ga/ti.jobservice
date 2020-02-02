@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0.0
+apiversion: 4
+architectures: arm64-v8a armeabi-v7a x86
+description: ti.jobservice
+author: Your Name
+license: Specify your license
+copyright: Copyright (c) 2020 by Your Company
+
+# these should not be edited
+name: ti.jobservice
+moduleid: ti.jobservice
+guid: 57b6e336-0832-4f37-9ee1-9b382a4e61b7
+platform: android
+minsdk: 8.3.1.GA
