@@ -26,11 +26,11 @@ create a service, add it to the tiapp.xml file:
 	 	<!-- YOUR MANIFEST CODES HERE -->
     </manifest>
     <services>
-        <service type="interval" url="myService.js"/>
+        <service type="interval" url="ti_service.js"/>
     </services>
 </android>
 ```
-Check `/build/android/AndroidManifest.xml` for something like `com.myproject.geofence.MyServiceService`. Copy that string and set it as a `service` inside `startJob()`.
+Check `/build/android/AndroidManifest.xml` for something like `com.test.job.Ti_serviceService`. Copy that string and set it as a `service` inside `startJob()`.
 
 ## Example
 
